@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_erp_funcionarios
+    description: Tabela de preparação dos dados brutos da funcionários
+    columns:
+      - name: PK_FUNCIONARIO
+      - name: FK_GERENTE
+      - name: NOME_FUNCIONARIO
+      - name: CARGO_FUNCIONARIO
+      - name: DT_NASCIMENTO_FUNCIONARIO
+      - name: DT_CONTRATACAO_FUNCIONARIO
+      - name: CIDADE_FUNCIONARIO
+      - name: REGIAO_FUNCIONARIO
+      - name: PAIS_FUNCIONARIO
