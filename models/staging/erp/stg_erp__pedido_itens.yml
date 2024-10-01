@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: pedido_itens
+    description: Tabela de preparação dos dados brutos da funcionários
+    columns:
+      - name: PK_PEDIDO_ITEM
+        data_tests:
+          - unique
+          - not_null
